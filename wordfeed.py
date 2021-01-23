@@ -29,6 +29,7 @@ while len(text) < text_amount:
     width += (len(word_list[i]) + 1)
     if(width > max_width):
         text = text + '\n'
+        width = 0
 
 def fit(text, text_amount):
     if(len(text) < text_amount):
